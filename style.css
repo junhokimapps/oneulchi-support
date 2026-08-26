@@ -36,6 +36,12 @@ a {
   text-underline-offset: 0.18em;
 }
 
+.primary-link {
+  display: inline-block;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
 .page {
   margin: 0 auto;
   max-width: 840px;
@@ -44,6 +50,21 @@ a {
 
 .hero {
   margin-bottom: 28px;
+}
+
+.app-hero {
+  align-items: center;
+  display: flex;
+  gap: 22px;
+}
+
+.app-icon {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: 0 14px 32px rgba(82, 63, 45, 0.12);
+  flex: 0 0 auto;
+  height: 112px;
+  width: 112px;
 }
 
 .eyebrow {
@@ -168,5 +189,16 @@ li {
 
   .card {
     border-radius: 20px;
+  }
+
+  .app-hero {
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .app-icon {
+    border-radius: 17px;
+    height: 84px;
+    width: 84px;
   }
 }
